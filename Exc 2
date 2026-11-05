@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float teclado = 89.90;
+    float mouse = 45.50;
+    float monitor = 850.00;
+
+    printf("Produto\t\tPreco (R$)\n");
+    printf("Teclado\t\t%.2f\n", teclado);
+    printf("Mouse\t\t%.2f\n", mouse);
+    printf("Monitor\t\t%.2f\n", monitor);
+
+    return 0;
+}

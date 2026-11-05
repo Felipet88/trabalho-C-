@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char abertura = '{';
+    char asterisco = '*';
+    char pontoVirgula = ';';
+
+    printf("Abertura: '%c'\n", abertura);
+    printf("Asterisco: '%c'\n", asterisco);
+    printf("Ponto e virgula: '%c'\n", pontoVirgula);
+
+    return 0;
+}

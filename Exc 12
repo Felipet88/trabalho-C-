@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    float distancia, combustivel;
+    float rendimento, precoLitro = 6.00;
+    float custoKm;
+
+    printf("Digite a distancia percorrida em km: ");
+    scanf("%f", &distancia);
+
+    printf("Digite o combustivel consumido em litros: ");
+    scanf("%f", &combustivel);
+
+    if (distancia >= 0 && combustivel > 0) {
+        rendimento = distancia / combustivel;
+        custoKm = (combustivel * precoLitro) / distancia;
+
+        printf("Rendimento: %.2f km/l\n", rendimento);
+        printf("Custo por quilometro: R$ %.2f\n", custoKm);
+    } else {
+        printf("Informe distancia positiva e combustivel maior que zero.\n");
+    }
+
+    return 0;
+}

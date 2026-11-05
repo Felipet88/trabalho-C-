@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int dia = 25;
+    int mes = 10;
+    int ano = 2026;
+    float versao = 1.5;
+
+    printf("Data de lancamento: %02d/%02d/%04d - Versao %.1f\n",
+           dia, mes, ano, versao);
+
+    return 0;
+}
